@@ -1,7 +1,7 @@
 import { FC, useMemo } from "react";
 import Project from "./Project";
 
-import { AWS, Firebase, Javascript, MySQL, Nestjs, React, ReactNative, Square, Typescript, Monogdb, Tailwindcss, Git, Nodejs, Express, Figma } from "../icons";
+import { Firebase, Javascript, Nextjs, React, Square, Typescript, Monogdb, Nodejs } from "../icons";
 
 const Portfolio: FC = () => {
   const projects = useMemo(
@@ -16,15 +16,10 @@ const Portfolio: FC = () => {
         // skills: ["React.js", "TypeScript", "Nest.js", "MySQL", "TypeORM"],
         skills: [
           <React key={Math.random().toFixed(3)} width={40} />,
-          <Javascript key={Math.random().toFixed(3)} width={40} />,
           <Typescript key={Math.random().toFixed(3)} width={40} />,
-          <Firebase key={Math.random().toFixed(3)} width={40} />,
           <Square key={Math.random().toFixed(3)} width={40} />,
           <Nodejs key={Math.random().toFixed(3)} width={40} />,
           <Monogdb key={Math.random().toFixed(3)} width={40} />,
-          <Express key={Math.random().toFixed(3)} width={40} />,
-          <Git key={Math.random().toFixed(3)} width={40} />,
-          <Figma key={Math.random().toFixed(3)} width={40} />,
         ],
       },
       {
@@ -37,15 +32,10 @@ const Portfolio: FC = () => {
         // skills: ["React.js", "TypeScript", "Nest.js", "MySQL", "TypeORM"],
         skills: [
           <React key={Math.random().toFixed(3)} width={40} />,
-          <Javascript key={Math.random().toFixed(3)} width={40} />,
           <Typescript key={Math.random().toFixed(3)} width={40} />,
-          <Firebase key={Math.random().toFixed(3)} width={40} />,
           <Square key={Math.random().toFixed(3)} width={40} />,
           <Nodejs key={Math.random().toFixed(3)} width={40} />,
           <Monogdb key={Math.random().toFixed(3)} width={40} />,
-          <Express key={Math.random().toFixed(3)} width={40} />,
-          <Git key={Math.random().toFixed(3)} width={40} />,
-          <Figma key={Math.random().toFixed(3)} width={40} />,
         ],
       },
       {
@@ -58,14 +48,8 @@ const Portfolio: FC = () => {
         skills: [
           <React key={Math.random().toFixed(3)} width={40} />,
           <Javascript key={Math.random().toFixed(3)} width={40} />,
-          <Typescript key={Math.random().toFixed(3)} width={40} />,
           <Firebase key={Math.random().toFixed(3)} width={40} />,
-          <Nodejs key={Math.random().toFixed(3)} width={40} />,
-          <Monogdb key={Math.random().toFixed(3)} width={40} />,
-          <Express key={Math.random().toFixed(3)} width={40} />,
-          <Git key={Math.random().toFixed(3)} width={40} />,
-          <Figma key={Math.random().toFixed(3)} width={40} />,
-          <Tailwindcss key={Math.random().toFixed(3)} width={40} />,
+          <Nextjs key={Math.random().toFixed(3)} width={40} />,
         ],
       },
     ],
