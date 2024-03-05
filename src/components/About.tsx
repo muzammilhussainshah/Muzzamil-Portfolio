@@ -6,27 +6,19 @@ const About: FC = () => {
       <div className="mb-4 font-bold text-center text-h2">About Me</div>
       <div className="container text-justify text-paraColor md:text-paraGraphMedium">
         <p>
-          As a software engineer with expertise in MERN stack development, I have a strong track record of building efficient and scalable web and
-          mobile applications for businesses of all sizes. With experience working with a wide range of clients, I have a proven ability to deliver
-          technical solutions that drive business growth and success.
+          With expertise spanning across a wide spectrum of technologies, I specialize in crafting seamless digital experiences. From front-end essentials like HTML and CSS to advanced frameworks like React.js, I ensure visually stunning and intuitive interfaces. My proficiency extends to the backend, where I develop robust systems utilizing Node.js or Python for smooth operation. I excel in database solutions, leveraging MySQL, MongoDB, and other technologies for efficient data management. Whether it's creating user-friendly mobile applications with React Native or Flutter or crafting engaging chatbots powered by Dialogflow or Rasa, I deliver innovative solutions tailored to enhance user interaction and satisfaction.
         </p>
-
         <br />
         <br />
 
         <p>
-          In my current role, I have helped small and medium businesses optimize their processes and scale their operations through the implementation
-          of custom software solutions. My passion for technology and problem-solving drives me to stay up-to-date on the latest industry trends and
-          techniques, ensuring that my clients always receive the best possible service.
+          Armed with a Bachelor of Computer Science degree from Master Mind School System and Virtual University of Pakistan, I have fortified my theoretical knowledge with six years of practical experience as a freelancer. Throughout my journey, I have cultivated a diverse skill set, adept at crafting seamless user interfaces and robust backend systems. My expertise extends beyond mere technical proficiency; I am committed to understanding and fulfilling the unique requirements of each client. This combination of academic grounding and real-world experience enables me to stay ahead of the curve in a rapidly evolving technological landscape, consistently delivering innovative and effective solutions.
         </p>
-
         <br />
         <br />
 
         <p>
-          If you&rsquo;re in need of a new web application, a mobile app, or simply looking to improve your current software infrastructure, I am
-          ready to provide you with the expertise and guidance you need to succeed. I am confident that my skills and experience make me a strong
-          candidate for your next project and I look forward to the opportunity to work with you.
+          As a seasoned professional, I have established a prominent presence on leading freelancing platforms. With a top-rated seller badge on Upwork and a Level One seller status on Fiverr, my track record speaks volumes. Having completed over 23 jobs on Upwork with total earnings exceeding $40K, I've dedicated 2,982 hours to delivering exceptional results for my clients. My commitment to excellence is reflected in my 100% job success rate on Upwork and a stellar 5-star rating on Fiverr. With a proven ability to consistently exceed expectations, I am poised to tackle any project with diligence and expertise.
         </p>
       </div>
     </div>

@@ -40,7 +40,7 @@ const Project: FC<ProjectProps> = ({ title, images, description, type, role, ski
         </div>
 
         <div className="font-semibold text-left mb-2">Skills</div>
-        <div className="grid grid-cols-3 gap-4 ">
+        <div className="grid grid-cols-5 gap-4 ">
           {skills.map((skill, idx) => {
             return <div key={idx}>{skill}</div>;
           })}

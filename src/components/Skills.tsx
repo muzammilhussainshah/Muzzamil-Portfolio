@@ -16,6 +16,7 @@ import {
   ReactNative,
   Tailwindcss,
   Typescript,
+  OpenAI
 } from "../icons";
 import Skill from "./Skill";
 
@@ -30,7 +31,6 @@ const Skills: FC = () => {
       { component: <Javascript />, name: "JavaScript" },
       { component: <Tailwindcss />, name: "Tailwind CSS" },
       { component: <Nodejs />, name: "Node.js" },
-      { component: <Nestjs />, name: "Nest.js" },
       { component: <Express />, name: "Express.js" },
       { component: <Git />, name: "Git" },
       { component: <Github />, name: "Github" },
@@ -38,6 +38,7 @@ const Skills: FC = () => {
       { component: <Firebase />, name: "Firebase" },
       { component: <MySQL />, name: "MySQL" },
       { component: <Figma />, name: "Figma" },
+      { component: <OpenAI width={132} />, name: "OpenAI" },
     ],
     []
   );

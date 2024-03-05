@@ -3,7 +3,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 import { BsCheckLg } from "react-icons/bs";
 
 const Hero: FC = () => {
-  const services = useMemo(() => ["Web", "Android", "iOS","Chatbot", "Cross Platform"], []);
+  const services = useMemo(() => ["Android", "iOS", "Cross Platform", "Web", "Chatbot"], []);
 
   return (
     <div className=" py-12 lg:flex lg:flex-row-reverse lg:px-16 lg:py-36 lg:justify-between lg:items-center" id="home">

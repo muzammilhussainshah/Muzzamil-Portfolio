@@ -16,6 +16,9 @@ export * from "./ReactNative";
 export * from "./Tailwindcss";
 export * from "./TypeORM";
 export * from "./Typescript";
+export * from "./OpenAI";
+export * from "./Square";
+
 export interface IconProps {
   width?: number;
 }
