@@ -38,7 +38,7 @@ const Project: FC<ProjectProps> = ({ title, images, description, type, role, ski
       <div className="lg:max-w-lg">
         <div className="hidden mb-2 lg:flex text-h2">{title}</div>
         <div className="hidden mb-2 lg:flex text-h2">{icon}</div>
-        <div className="mb-4 tracking-wide lg:w-4/5 xl:w-full">{description}</div>
+        <div className="mb-4 container text-justify text-paraColor md:text-paraGraphMedium lg:text-start lg:tracking-wide lg:w-4/5 xl:w-full">{description}</div>
 
         <div className="grid grid-cols-2 mb-5">
           <div className="font-semibold mb-2">Type</div>

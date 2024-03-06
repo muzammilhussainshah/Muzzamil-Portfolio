@@ -55,6 +55,7 @@ module.exports = {
       bermuda: "#78dcca",
       primary: "#1d53ff",
       paraColor: "#001455",
+      black: "#00000",
     },
     variants: {
       extend: {},

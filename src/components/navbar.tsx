@@ -23,7 +23,7 @@ const Navbar: FC = () => {
         <div className="flex items-center justify-center h-[80px] lg:h-auto px-3">
           <div className="flex flex-1 flex-row lg:flex-none">
             {/* <img src="/images/logo1.png" alt="logo" /> */}
-            <p className="ml-2 text-h3 font-semibold"><span className="text-h4 align-middle border-black border-4 border-black	 rounded-full px-1 py-1.5">MS</span> Muzzammil Shah</p>
+            <p className="ml-2 text-h4 lg:text-h2 font-semibold"><span className="text-h4 align-middle border-black border-4 border-black	 rounded-full px-1 py-1.5">MS</span> Muzzammil Shah</p>
           </div>
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-center">
