@@ -17,8 +17,9 @@ const Hero: FC = () => {
 
       <div>
         <div className=" lg:text-h2 mb-8 font-semibold text-center text-h3 lg:text-left xl:text-h1 lg:max-w-screen-lg xl:max-w-screen-xl">
-          Sleek <span className="underline decoration-primary">Web</span>, <span className="underline decoration-primary">Mobile Apps</span> & <span className="underline decoration-primary">Chatbot</span>, from
-          design to development that fit your needs.
+          Full stack <span className="underline decoration-primary">Web</span> & <span className="underline decoration-primary">Mobile Apps</span> developer with chatbot expertise
+          {/* Sleek <span className="underline decoration-primary">Web</span>, <span className="underline decoration-primary">Mobile Apps</span> & <span className="underline decoration-primary">Chatbot</span>, from
+          design to development that fit your needs. */}
         </div>
 
         <div className="grid grid-cols-2 px-7 lg:px-0 grid-rows-2 mb-8 lg:grid-rows-none lg:grid-cols-none">

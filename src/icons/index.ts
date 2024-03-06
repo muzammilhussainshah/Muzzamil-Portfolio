@@ -18,6 +18,9 @@ export * from "./TypeORM";
 export * from "./Typescript";
 export * from "./OpenAI";
 export * from "./Square";
+export * from "./Bistrochat";
+export * from "./ChatToPotato";
+export * from "./BistroChatManager";
 
 export interface IconProps {
   width?: number;
