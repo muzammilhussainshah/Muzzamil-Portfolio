@@ -6,7 +6,7 @@ const CHTHero: FC = () => {
     <section>
       <div className="maincontainer">
         <div className="my-2 flex  lg:my-[50px]  lg:px-0 px-4 justify-between ">
-          <ChatToPotato key={Math.random().toFixed(3)} width={40} />
+          <ChatToPotato width={40} />
           <div className="font-bold text-center text-[#fea130] text-h4">2023{" "}</div>
         </div>
         <div className='mt-4 flex flex-col md:flex-row md:justify-center md:space-y-0 md:space-x-4 lg:space-x-0  items-center'>

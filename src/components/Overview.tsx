@@ -20,7 +20,7 @@ const OverView: FC = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex justify-end -mr-10 ">
+            <div className="flex justify-end -mr-10">
                 <img src="images/chattopotato/OverView.png" alt="Chattopotatologo" />
             </div>
             <section>

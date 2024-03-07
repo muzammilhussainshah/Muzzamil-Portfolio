@@ -9,6 +9,7 @@ import BrandIdentity from "../../src/components/BrandIdentity";
 import CHTHero from "../../src/components/CHTHero";
 import Sketching from "../../src/components/Sketching";
 import Authentication from "../../src/components/Authentication";
+import FinalDeliverable from "../../src/components/FinalDeliverable";
 
 
 
@@ -30,6 +31,7 @@ const Portfolio: FC = () => {
       <BrandIdentity />
       <Sketching />
       <Authentication />
+      <FinalDeliverable />
     </div>
   );
 };
