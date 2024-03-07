@@ -56,6 +56,7 @@ module.exports = {
       primary: "#1d53ff",
       paraColor: "#001455",
       black: "#00000",
+      heading: "#130C2C",
     },
     variants: {
       extend: {},
