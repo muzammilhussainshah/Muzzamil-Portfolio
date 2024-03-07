@@ -7,3 +7,20 @@ body {
   font-family: Plus Jakarta Sans;
   scroll-behavior: smooth;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.maincontainer {
+  max-width: 1440px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+section {
+  width: 100%;
+  padding: 60px 0px;
+}
