@@ -18,9 +18,9 @@ const Footer = () => {
               href="mailto:info@lorem.mail"
               aria-label="Our email"
               title="Our email"
-              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="transition-colors duration-300 text-deep-purple-accent-400 text-[.9rem] sm:text-bodyTitleSmall hover:text-deep-purple-800"
             >
-             mynameismuzammilhussainshah@gmail.com
+              mynameismuzammilhussainshah@gmail.com
             </a>
           </div>
           <div className="flex justify-center items-center">
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center pt-5 pb-10 border-t gap-4 lg:flex-row">
-        <p className="text-sm text-gray-600 font-bold inline-block ">© Copyright 2024 </p> <p>mynameismuzammilhussainshah@gmail.com </p> <p>All rights reserved.</p>
+        <p className="text-sm text-gray-600 font-bold inline-block ">© Copyright 2024 </p> <p className="text-[.9rem] sm:text-bodyTitleSmall">mynameismuzammilhussainshah@gmail.com</p> <p>All rights reserved.</p>
       </div>
     </div>
   );

@@ -4,8 +4,8 @@ import { ChatToPotato } from "../icons";
 const CHTHero: FC = () => {
   return (
     <div className="w-full bg-[#6697e0]">
-      <div className="max-w-[1440px] m-auto">
-        <div className="my-2 flex  lg:my-[50px]  lg:px-0 px-4 justify-between ">
+      <div className="max-w-[1440px] m-auto py-4">
+        <div className="flex   lg:px-0 px-4 justify-between ">
           <ChatToPotato width={40} />
           <div className="font-bold text-center text-[#fea130] text-h4">2023{" "}</div>
         </div>

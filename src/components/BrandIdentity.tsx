@@ -52,9 +52,9 @@ const BrandIdentity: FC = () => {
                     <div className="h-1/2 border-b-4  border-b-[#fea130] w-full" />
                 </div>
                 <div className="flex flex-col gap-y-6">
-                    <div className="font-bold  text-heading text-h1">Poppins</div>
-                    <div className="font-medium text-heading  text-h2" >Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
-                    <div className="font-medium text-heading  text-h3" >0123456789</div>
+                    <div className="font-bold  text-heading text-bodyTitleBig">Poppins</div>
+                    <div className="font-medium text-heading  text-bodyTitleBig" >Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+                    <div className="font-medium text-heading  text-bodyTitleBig" >0123456789</div>
                 </div>
             </div>
         </section>
