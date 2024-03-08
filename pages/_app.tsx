@@ -9,11 +9,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <MenuContextProvider>
       <Navbar />
-      <div className="px-1">
+      <div className="">
         <Component {...pageProps} />
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </MenuContextProvider>
   );
 }

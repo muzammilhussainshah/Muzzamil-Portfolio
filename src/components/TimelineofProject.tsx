@@ -5,7 +5,7 @@ const TimelineofProject: FC = () => {
     return (
         <section>
             <div className="maincontainer">
-                <div className="font-bold text-[#eb5553]  text-h4 lg:text-h1">Timeline of Project</div>
+                <div className="font-bold text-[#eb5553] text-h3 lg:text-h1 text-center lg:text-left">Timeline of Project</div>
                 <div className="flex justify-center mt-10">
                     <img src="images/chattopotato/timeperiod.jpg" alt="Chattopotatologo" />
                 </div>
