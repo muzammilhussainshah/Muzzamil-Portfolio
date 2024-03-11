@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Figma, React, Nodejs, Monogdb } from "../icons";
+import { Figma, React, Nodejs, Monogdb } from "../../icons";
 
 const FinalDeliverable: FC = () => {
   return (

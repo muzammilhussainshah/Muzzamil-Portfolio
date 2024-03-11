@@ -24,6 +24,7 @@ const Portfolio: FC = () => {
       },
       {
         title: "Bistrochat",
+        path:'/bistrochat',
         images: ["images/bistrochat/image.png", "images/bistrochat/image2.png"],
         description:
           "Bistrochat redefines the dining experience in Hong Kong with its innovative restaurant booking and loyalty program. With a user-friendly interface, users can effortlessly search for restaurants based on location, cuisine, or specific dishes, while also accessing ratings and recommendations from friends. The convenience of booking restaurants via chat eliminates the need for traditional phone calls, allowing reservations to be made from any location, whether it's the MTR or an open space. The integrated map feature facilitates finding nearby restaurants, making dining decisions easier than ever. Additionally, Bistrochat rewards users with stamps, cashback, and discounts for dining out, further enhancing the dining experience. With multilingual support and translation features, communication with restaurant staff is seamless. Bistrochat truly brings the magic of dining to life, offering thousands of options in its Hong Kong Restaurants Directory, all accessible through a free app. Bon appétit awaits with Bistrochat!",
@@ -41,7 +42,8 @@ const Portfolio: FC = () => {
       },
       {
         title: "Chat To Potato",
-        images: ["images/chattopotato/image.png", "images/chattopotato/image2.png"],
+        path:'/chattopotato',
+        images: ["images/chattopotato/image(1).png", "images/chattopotato/image2.png"],
         description:
           "This is both an app and a website that I have created. In this app, we have 'guiders' who are available to offer guidance or advice on any issues or queries you may have. You can share anything with these guiders, and the app ensures the maintenance of your privacy, hence its name, 'Chat to Potato'. Through this platform, we engage in chatting where users can seek support and share experiences.",
         type: "Website & App",

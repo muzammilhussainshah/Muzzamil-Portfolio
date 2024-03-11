@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { ChatToPotato } from "../icons";
+import { ChatToPotato } from "../../icons";
 
 const Sketching: FC = () => {
   return (

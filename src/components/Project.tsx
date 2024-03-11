@@ -8,9 +8,10 @@ interface ProjectProps {
   type: string;
   skills: Array<any>;
   icon: any;
+  path?: string;
 }
 
-const Project: FC<ProjectProps> = ({ title, images, description, type, role, skills, icon }) => {
+const Project: FC<ProjectProps> = ({ title, images, description, type, role, skills, icon, path }) => {
   return (
     <div className="my-5 lg:flex lg:flex-row-reverse lg:my-[50px] lg:justify-around">
       <div className="mb-4 lg:max-w-lg ">
@@ -27,7 +28,7 @@ const Project: FC<ProjectProps> = ({ title, images, description, type, role, ski
         </div>
         <div className="flex justify-center my-4">
           <a
-            href="#"
+            href={path}
             className="py-5 text-white transition duration-300 ease-in-out delay-150 rounded-lg cursor-pointer px-7 bg-primary hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
           >
             View case study
