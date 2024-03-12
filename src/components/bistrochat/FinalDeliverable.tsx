@@ -11,7 +11,18 @@ const FinalDeliverable: FC = () => {
             <div className='lg:text-left lg:block flex flex-col items-center'>
               <div className="font-jakarta font-extrabold text-white  text-h3 lg:text-left text-center">Bistrochat Final Deliverable</div>
               <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">The end result is a fully functional mobile app with a user-centric design, providing a seamless experience for both advertisers and helpers in the job marketplace.</div>
-              <div className="lg:body1 text-white py-2 px-3 sm:w-[22rem] rounded-[1.5rem] bg-[#8e42945b] text-center mt-4">Visit live at www.chattoapotato.com</div>
+            </div>
+            <div className="flex my-6 sm:my-0 justify-evenly md:justify-center lg:justify-start gap-x-4">
+              <button>
+                <a href="https://apps.apple.com/us/app/bistrochat-hong-kong/id1097314607">
+                  <img src="images/bistrochat/appstore.png" alt="Google" />
+                </a>
+              </button>
+              <button>
+                <a href="https://play.google.com/store/apps/details?id=com.bistrochat.bistrochatclient&hl=en&gl=US">
+                  <img src="images/bistrochat/googleplay.png" alt="Google" />
+                </a>
+              </button>
             </div>
             <div className="flex flex-col gap-y-5 items-center lg:items-start">
               <div className="font-poppins font-semibold text-h4 mt-6 text-white">Design & Development Stack</div>
