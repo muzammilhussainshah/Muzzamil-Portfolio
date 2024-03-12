@@ -9,6 +9,7 @@ const Portfolio: FC = () => {
       {
         title: "Bistrochat Manager",
         images: ["images/bistrochatManager/image.png", "images/bistrochatManager/image2.png"],
+        path:'/bistrochat-manager',
         description:
           'Bistrochat Manager revolutionizes restaurant operations by offering an all-in-one solution for owners, managers, and staff members. Our platform seamlessly consolidates reservations and guest data, streamlining operations into one user-friendly system. With powerful automation features like reminders, deposits management, and integration with POS systems, SMS, and email platforms, Bistrochat Manager empowers restaurants to deliver exceptional guest experiences. Whether managing reservations, coordinating with staff, or enhancing communication channels, our comprehensive solution elevates restaurant management to new heights. For those seeking to make reservations, our customer app "Bistrochat Hong Kong" provides easy access, ensuring a seamless dining experience from start to finish.',
         type: "Mobile App",

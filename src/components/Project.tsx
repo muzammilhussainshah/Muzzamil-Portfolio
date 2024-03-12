@@ -28,8 +28,10 @@ const Project: FC<ProjectProps> = ({ title, images, description, type, role, ski
         </div>
         <div className="flex justify-center my-4">
           <a
+            target="_blank"
             href={path}
-            className="py-5 text-white transition duration-300 ease-in-out delay-150 rounded-lg cursor-pointer px-7 bg-primary hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
+            className="py-5 text-white transition duration-300 ease-in-out delay-150 rounded-lg cursor-pointer px-7
+             bg-primary hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
           >
             View case study
           </a>
