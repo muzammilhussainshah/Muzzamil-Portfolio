@@ -3,14 +3,15 @@ import { Figma, React, Nodejs, Monogdb } from "../../icons";
 
 const FinalDeliverable: FC = () => {
   return (
-    <section className="bg-[#5e96e1] lg:h-[80vh] relative overflow-hidden">
+    <section style={{ background: 'linear-gradient(135deg, #370E3D 0%, #7C0E80 100%)' }}
+      className="relative overflow-hidden">
       <div className="max-w-[1440px] m-auto">
         <div className="wrapper lg:flex items-center">
           <div className="lg:w-[65%] h-[70vh] px-2 flex flex-col justify-evenly lg:pl-[15px]">
             <div className='lg:text-left lg:block flex flex-col items-center'>
-              <div className="font-jakarta font-extrabold text-[#f7a746fa]  text-h3 lg:text-left text-center">Chat To Potato Final Deliverable</div>
+              <div className="font-jakarta font-extrabold text-white  text-h3 lg:text-left text-center">Bistrochat Final Deliverable</div>
               <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">The end result is a fully functional mobile app with a user-centric design, providing a seamless experience for both advertisers and helpers in the job marketplace.</div>
-              <div className="lg:body1 text-white py-2 px-3 sm:w-[22rem] rounded-[1.5rem] bg-[#2d486b5e] text-center mt-4">Visit live at www.chattoapotato.com</div>
+              <div className="lg:body1 text-white py-2 px-3 sm:w-[22rem] rounded-[1.5rem] bg-[#8e42945b] text-center mt-4">Visit live at www.chattoapotato.com</div>
             </div>
             <div className="flex flex-col gap-y-5 items-center lg:items-start">
               <div className="font-poppins font-semibold text-h4 mt-6 text-white">Design & Development Stack</div>
@@ -44,13 +45,10 @@ const FinalDeliverable: FC = () => {
               </div>
             </div>
           </div>
-          <div className="lg:block xl:hidden pl-2 lg:p-0 flex justify-end mt-8 lg:mt-0">
-            <img src="images/chattopotato/OverView.png" alt="Chattopotatologo" />
+          <div className="lg:block lg:p-0 px-2 flex justify-center mt-8 lg:mt-0">
+            <img src="images/bistrochat/hero.png" alt="Chattopotatologo" />
           </div>
         </div>
-      </div>
-      <div className="hidden xl:block absolute top-40 -right-14">
-        <img src="images/chattopotato/OverView.png" alt="Chattopotatologo" />
       </div>
     </section>
   );

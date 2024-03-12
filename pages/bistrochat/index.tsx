@@ -3,13 +3,12 @@ import { FC} from "react";
 
 import { React } from "../../src/icons";
 import OverView from "../../src/components/bistrochat/Overview";
-
 import TimelineofProject from "../../src/components/bistrochat/TimelineofProject";
 import BrandIdentity from "../../src/components/bistrochat/BrandIdentity";
-import CHTHero from "../../src/components/bistrochat/CHTHero";
 import Sketching from "../../src/components/bistrochat/Sketching";
 import Authentication from "../../src/components/bistrochat/Authentication";
 import FinalDeliverable from "../../src/components/bistrochat/FinalDeliverable";
+import BistrochatHero from "../../src/components/bistrochat/BistrochatHero";
 
 
 
@@ -25,7 +24,7 @@ const Portfolio: FC = () => {
 
   return (
     <div style={styling}>
-      <CHTHero />
+      <BistrochatHero />
       <OverView />
       <TimelineofProject />
       <BrandIdentity />

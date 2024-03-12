@@ -7,7 +7,7 @@ const BrandIdentity: FC = () => {
         <section>
             <div className="maincontainer">
                 <div>
-                    <div className="font-bold text-[#eb5553]  text-h3 text-center lg:text-left lg:text-h1">Brand Identity</div>
+                    <div className="font-bold text-[#eb5553]  text-h2 text-center lg:text-left">Brand Identity</div>
                     <div className="font-poppins font-semibold lg:text-li mt-4 text-center lg:text-left ">Chat To Potato, A talking potato helps solve your problems and gives advice on lonely thoughts while keeping your identity private, just like a potato.</div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">

@@ -1,9 +1,10 @@
 import { FC } from "react";
 import { IconProps } from ".";
 
-export const Bistrochat: FC<IconProps> = ({ width = 100 }) => {
+export const Bistrochat: FC<IconProps> = ({ width = 100, className }) => {
   return (
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+      className={className}
       width={width} viewBox="0 0 240.000000 240.000000"
       preserveAspectRatio="xMidYMid meet">
 
