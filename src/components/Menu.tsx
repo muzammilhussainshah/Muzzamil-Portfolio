@@ -2,7 +2,7 @@ import { animated } from "@react-spring/web";
 import { useContext } from "react";
 import { FaRegWindowClose } from "react-icons/fa";
 import MenuContext from "../context/displayMenu.context";
-const Menu = () => {
+const Menu = ({ url }: { url: string }) => {
   const { toggleDisplayMenu } = useContext(MenuContext);
 
   return (
@@ -17,20 +17,20 @@ const Menu = () => {
           }}
         />
       </div>
-      <div className="flex flex-col text-center  gap-5 font-jakarta font-semibold text-h2">
+      <div className="flex flex-col text-center  gap-5 font-jakarta font-semibold text-[2rem] sm:text-h2">
         <span className="font-bold  text-white">
           {" "}
-          <a href="#Bistrochat-Manager" onClick={toggleDisplayMenu}>
+          <a href={url?.length > 1 ? '/bistrochat-manager' : "#Bistrochat-Manager"} onClick={toggleDisplayMenu}>
             Bistrochat Manager
           </a>
         </span>
         <span className="font-bold text-white">
-          <a href="#Bistrochat" onClick={toggleDisplayMenu}>
+          <a href={url?.length > 1 ? '/bistrochat' : "#Bistrochat"} onClick={toggleDisplayMenu}>
             Bistrochat
           </a>
         </span>
         <span className="font-bold text-white">
-          <a href="#Chat To Potato" onClick={toggleDisplayMenu}>
+          <a href={url?.length > 1 ? '/chat-to-potato' : "#Chat-To-Potato"} onClick={toggleDisplayMenu}>
             Chat To Potato
           </a>
         </span>

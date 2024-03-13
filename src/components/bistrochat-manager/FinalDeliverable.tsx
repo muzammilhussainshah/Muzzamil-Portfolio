@@ -8,8 +8,9 @@ const FinalDeliverable: FC = () => {
         <div className="wrapper lg:flex items-center">
           <div className="lg:w-[65%] h-[70vh] px-2 flex flex-col justify-evenly lg:pl-[15px]">
             <div className='lg:text-left lg:block flex flex-col items-center'>
-              <div className="font-jakarta font-extrabold text-[#66a14c]  text-h3 lg:text-left text-center">Chat To Potato Final Deliverable</div>
-              <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">The end result is a fully functional mobile app with a user-centric design, providing a seamless experience for both advertisers and helpers in the job marketplace.</div>
+              <div className="font-jakarta font-extrabold text-[#66a14c]  text-h3 lg:text-left text-center">Bistrochat Manager Final Deliverable</div>
+              <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">
+              The end result is a fully functional mobile app with a user-centric design, providing a Booking saves you time so you can focus more on your guests.</div>
             </div>
             <div className="flex my-6 sm:my-0 justify-evenly md:justify-center lg:justify-start gap-x-4">
               <button>

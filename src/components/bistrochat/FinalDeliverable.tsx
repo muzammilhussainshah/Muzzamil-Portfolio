@@ -10,7 +10,7 @@ const FinalDeliverable: FC = () => {
           <div className="lg:w-[65%] h-[70vh] px-2 flex flex-col justify-evenly lg:pl-[15px]">
             <div className='lg:text-left lg:block flex flex-col items-center'>
               <div className="font-jakarta font-extrabold text-white  text-h3 lg:text-left text-center">Bistrochat Final Deliverable</div>
-              <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">The end result is a fully functional mobile app with a user-centric design, providing a seamless experience for both advertisers and helpers in the job marketplace.</div>
+              <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">The end result is a fully functional mobile app with a user-centric design, Bistrochat app allows users to make online bookings and view all available restaurants.</div>
             </div>
             <div className="flex my-6 sm:my-0 justify-evenly md:justify-center lg:justify-start gap-x-4">
               <button>

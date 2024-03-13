@@ -32,8 +32,10 @@ const Authentication: FC = () => {
         <div className="maincontainer lg:flex">
           <div className="lg:w-1/2 flex flex-col gap-y-3 justify-center items-center lg:items-start">
             <div className="font-poppins font-bold lg:body1 text-white text-head py-2 w-[10rem] rounded-lg bg-[#2e3a59] text-center">Popular Tools</div>
-            <div className="font-bold  text-head text-[#2e3a59] text-center text-h3  lg:text-left">Find Help from Real People on This App</div>
-            <div className="font-poppins font-semibold text-center text-li lg:text-left">There are many people available on this app to give you advice on various issues you might be facing, whether it's family problems, divorce, anxiety, career issues, or anything else bothering you.</div>
+            <div className="font-bold  text-head text-[#2e3a59] text-center text-h3  lg:text-left">Booking Workflows Managed by our Saas Platform</div>
+            <div className="font-poppins font-semibold text-center text-li lg:text-left">
+              Our software handles everything: sending confirmations, updates, and cancellation emails to customers regardless of how they booked. It also informs them about our loyalty program every time. Plus, if they book through our website, they'll get an automatic SMS with all the details.
+              </div>
           </div>
           <div className="lg:w-1/2 my-8 flex justify-end ">
             <div className="w-[97%] p-2 rounded-lg">
@@ -57,8 +59,10 @@ const Authentication: FC = () => {
           <div className="lg:w-1/2 w-full flex justify-end items-center">
             <div className="lg:w-[90%] w-full flex flex-col gap-y-3 items-center lg:items-start">
               <div className="font-poppins font-bold lg:body1 text-head py-2 w-[10rem] text-white rounded-lg bg-[#2e3a59] text-center">Popular Tools</div>
-              <div className="font-bold text-[#2e3a59] text-h3 text-center lg:text-left">Scheduling with Chat to Potato</div>
-              <div className="font-poppins font-semibold text-li text-center lg:text-left">At Chat to Potato, we ensure your privacy while scheduling. Your identity remains confidential, providing peace of mind.</div>
+              <div className="font-bold text-[#2e3a59] text-h3 text-center lg:text-left">Booking Workflows Managed by our Saas Platform</div>
+              <div className="font-poppins font-semibold text-li text-center lg:text-left">
+                This system handles restaurant reservations from WhatsApp, Facebook, and Bistrochat 24/7, translating live for language differences and automatically updating booking and customer information for marketing.
+              </div>
             </div>
           </div>
         </div>
@@ -72,8 +76,10 @@ const Authentication: FC = () => {
             <img src="images/chattopotato/centerArrow.jpg" className="hidden xl:block w-[6rem]" alt="" />
           </div>
           <div className="font-poppins font-bold lg:body1 text-head py-2 w-[10rem] text-white rounded-lg bg-[#2e3a59] text-center">Popular Tools</div>
-          <div className="font-bold  text-head text-[#2e3a59] text-center text-h3  lg:text-left">Anonymous Chat: Share Thoughts, Get Advice</div>
-          <div className="font-poppins font-semibold text-center text-li lg:text-left">Want to talk without revealing your identity? Our anonymous chat lets you do just that. Share freely, get advice, all while staying private. Start chatting now!</div>
+          <div className="font-bold  text-head text-[#2e3a59] text-center text-h3  lg:text-left">Restaurant Booking System That Makes Staff & Guests Happier</div>
+          <div className="font-poppins font-semibold text-center text-li lg:text-left">
+            Bistrochat TMS automates reservation confirmations, reminders, table allocation, POS order integration, "thank you" emails, and feedback requests, letting you focus on building connections and providing exceptional hospitality.
+          </div>
         </div>
         <div className="lg:w-1/2 my-8 w-full flex justify-end">
           <div className="w-[97%] p-2 rounded-lg">

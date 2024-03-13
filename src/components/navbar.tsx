@@ -70,7 +70,7 @@ const Navbar: FC = () => {
           </div>
         </div>
       ) : (
-        <Menu />
+        <Menu url={url} />
       )}
     </>
   );

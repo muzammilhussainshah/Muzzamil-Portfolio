@@ -22,7 +22,7 @@ const OverView: FC = () => {
             </div>
             <div className="flex my-5 justify-center lg:justify-end">
                 <img src="images/chattopotato/OverView.png" className="hidden lg:block" alt="Chattopotatologo" />
-                <img src="images/chattopotato/image.png" className="lg:hidden" alt="Chattopotatologo" />
+                <img src="images/chattopotato/image1.png" className="lg:hidden" alt="Chattopotatologo" />
             </div>
             <section>
                 <div className="maincontainer">

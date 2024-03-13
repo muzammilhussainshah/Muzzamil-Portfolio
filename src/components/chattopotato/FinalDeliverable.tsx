@@ -9,7 +9,7 @@ const FinalDeliverable: FC = () => {
           <div className="lg:w-[65%] h-[70vh] px-2 flex flex-col justify-evenly lg:pl-[15px]">
             <div className='lg:text-left lg:block flex flex-col items-center'>
               <div className="font-jakarta font-extrabold text-[#f7a746fa]  text-h3 lg:text-left text-center">Chat To Potato Final Deliverable</div>
-              <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">The end result is a fully functional mobile app with a user-centric design, providing a seamless experience for both advertisers and helpers in the job marketplace.</div>
+              <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">The end result is a fully functional "Chat to a Potato" web app, which is an instant chat website that allows you to chat with other people who can help with real-life issues such as depression, anxiety, and so on.</div>
               <div className="lg:body1 text-white py-2 px-3 sm:w-[22rem] rounded-[1.5rem] bg-[#2d486b5e] text-center mt-4 cursor-pointer"><a href="https://chattoapotato.com/">Visit live at www.chattoapotato.com</a></div>
             </div>
             <div className="flex flex-col gap-y-5 items-center lg:items-start">

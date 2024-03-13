@@ -15,7 +15,7 @@ const BistrochatHero: FC = () => {
         <div className="mt-[50px] flex flex-col md:flex-row  lg:justify-between md:justify-center md:gap-x-5 lg:gap-x-0  lg:px-0 px-4  ">
           <div className="">
             <div className="font-bold text-black text-h4 text-center lg:text-left">Our Role</div>
-            <div className="font-bold  text-[#4e0d53] text-center md:text-left text-h4">Development{" "}</div>
+            <div className="font-bold  text-[#4e0d53] text-center md:text-left text-h4">Design & Development{" "}</div>
           </div>
           <div className="">
             <div className="font-bold text-black text-h4 text-center lg:text-right">Project</div>
