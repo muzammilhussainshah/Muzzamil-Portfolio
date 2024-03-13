@@ -6,7 +6,7 @@ const Sketching: FC = () => {
     <section>
       <div className="maincontainer">
         <div >
-          <div className="font-bold text-[#eb5553]  text-center lg:text-left text-h2">Sketching</div>
+          <div className="font-bold text-[#fea130]  text-center lg:text-left text-h2">Sketching</div>
           <div className="font-poppins font-semibold  text-center lg:text-left text-li mt-6">Initial sketches focus on creating an intuitive interface prioritizing efficient learning and user convenience.</div>
         </div>
         <div className="flex  justify-center my-10">

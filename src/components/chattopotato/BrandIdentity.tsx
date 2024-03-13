@@ -7,11 +7,11 @@ const BrandIdentity: FC = () => {
         <section>
             <div className="maincontainer">
                 <div>
-                    <div className="font-bold text-[#eb5553]  text-h2 text-center lg:text-left">Brand Identity</div>
+                    <div className="font-bold text-[#fea130]  text-h2 text-center lg:text-left">Brand Identity</div>
                     <div className="font-poppins font-semibold lg:text-li mt-4 text-center lg:text-left ">Chat To Potato, A talking potato helps solve your problems and gives advice on lonely thoughts while keeping your identity private, just like a potato.</div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">
-                    <div className="font-bold text-[#eb5553] text-bodyTitleBig" >Logo</div>
+                    <div className="font-bold text-[#fea130] text-bodyTitleBig" >Logo</div>
                     <div className="h-1/2 border-b-4  border-b-[#fea130] w-[93%]" />
                 </div>
                 <div className="lg:w-3/4 m-auto">
@@ -29,7 +29,7 @@ const BrandIdentity: FC = () => {
                     </div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">
-                    <article className="font-bold text-[#eb5553] text-bodyTitleBig whitespace-nowrap">Brand Color</article>
+                    <article className="font-bold text-[#fea130] text-bodyTitleBig whitespace-nowrap">Brand Color</article>
                     <div className="h-1/2 border-b-4  border-b-[#fea130] w-full" />
                 </div>
                 <div className="md:flex lg:my-4 md:gap-x-3">
@@ -48,7 +48,7 @@ const BrandIdentity: FC = () => {
                 </div>
 
                 <div className="h-10 flex gap-x-4  my-10">
-                    <article className="font-bold text-[#eb5553] text-bodyTitleBig whitespace-nowrap">Typography</article>
+                    <article className="font-bold text-[#fea130] text-bodyTitleBig whitespace-nowrap">Typography</article>
                     <div className="h-1/2 border-b-4  border-b-[#fea130] w-full" />
                 </div>
                 <div className="flex flex-col gap-y-6">

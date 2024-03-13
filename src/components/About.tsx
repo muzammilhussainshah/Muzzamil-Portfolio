@@ -2,8 +2,8 @@ import { FC } from "react";
 
 const About: FC = () => {
   return (
-    <div className="my-[100px] mb-10 pr-6" id="about">
-      <div className="mb-4 font-bold text-center text-h2">About Me</div>
+    <div className="my-[100px] mb-10 px-2" id="about">
+      <div className="container  mb-4 font-bold text-center lg:text-left text-h2">About Me</div>
       <div className="container text-justify text-paraColor md:text-paraGraphMedium">
         <p>
           I'm an expert in creating easy-to-use digital platforms. I know all about making websites look great and work smoothly, using tools like HTML, CSS, and React.js. I'm also skilled in building strong backend systems with Node.js or Python. I'm great with databases too, using MySQL, MongoDB, and others to manage data efficiently. Whether it's mobile apps using React Native or Flutter, or fun chatbots with Dialogflow or Rasa, I specialize in making tech that people love to use.

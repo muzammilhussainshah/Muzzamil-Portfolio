@@ -17,7 +17,7 @@ const BrandIdentity: FC = () => {
                 <div className="lg:w-3/4 m-auto">
                     <div className="flex gap-x-6">
                         <div className="w-1/2   flex justify-center items-center flex-col gap-3 rounded-lg bg-[#191919]">
-                            <BistroChatManager className="w-[25%] rounded-lg bg-white" />
+                            <BistroChatManager className="w-[25%] rounded-lg" />
                             <div className="font-semibold text-white font-poppins text-center text-caption md:text-h4 lg:text-h3">Bistrochat</div>
                         </div>
                         <div className="w-1/2">

@@ -17,31 +17,21 @@ const Menu = () => {
           }}
         />
       </div>
-      <div className="flex flex-col gap-5 font-jakarta font-semibold text-h2">
-        <span className="font-bold text-white">
+      <div className="flex flex-col text-center  gap-5 font-jakarta font-semibold text-h2">
+        <span className="font-bold  text-white">
           {" "}
-          <a href="#about" onClick={toggleDisplayMenu}>
-            About
+          <a href="#Bistrochat-Manager" onClick={toggleDisplayMenu}>
+            Bistrochat Manager
           </a>
         </span>
         <span className="font-bold text-white">
-          <a href="#services" onClick={toggleDisplayMenu}>
-            Services
+          <a href="#Bistrochat" onClick={toggleDisplayMenu}>
+            Bistrochat
           </a>
         </span>
         <span className="font-bold text-white">
-          <a href="#tech" onClick={toggleDisplayMenu}>
-            Tech Stack
-          </a>
-        </span>
-        <span className="font-bold text-white">
-          <a href="#projects" onClick={toggleDisplayMenu}>
-            Projects
-          </a>
-        </span>
-        <span className="font-bold text-white">
-          <a href="#contact" onClick={toggleDisplayMenu}>
-            Contact
+          <a href="#Chat To Potato" onClick={toggleDisplayMenu}>
+            Chat To Potato
           </a>
         </span>
       </div>

@@ -5,7 +5,7 @@ const OverView: FC = () => {
     return (
         <section>
             <div className="maincontainer overflow-hidden">
-                <div className="font-bold text-[#eb5553] text-h2 text-center lg:text-left">Overview</div>
+                <div className="font-bold text-[#fea130] text-h2 text-center lg:text-left">Overview</div>
                 <div className="font-poppins font-semibold lg:text-li mt-6 leading-8  text-center lg:text-left">
                     <p>
                         There is proof that expressing your feelings through writing can make you feel better both physically and mentally. When you keep painful secrets inside, it can make you feel stressed and more likely to get sick. Sharing your feelings, whether by talking or writing, can help reduce this stress and improve your health in the long run. Connecting with someone and discussing your problems can help you let go of emotional pain and see things from a clearer perspective.
@@ -27,13 +27,13 @@ const OverView: FC = () => {
             <section>
                 <div className="maincontainer">
                     <div className="flex flex-col text-center gap-y-5 lg:text-left lg:flex-row  lg:gap-x-20">
-                        <div className="font-bold text-[#eb5553]  text-h3">Problem</div>
+                        <div className="font-bold text-[#fea130]  text-h3">Problem</div>
                         <div className="font-poppins font-semibold lg:text-li lg:mt-2 text-paraColor md:text-paraGraphMedium ">
                             Are you divorced or have you broken up? Are you feeling restless? Do you have problems at home or issues in your life?
                         </div>
                     </div>
                     <div className="mt-6 flex flex-col text-center gap-y-5 lg:text-left lg:flex-row  lg:gap-x-20">
-                        <div className="font-bold text-[#eb5553]  text-h3">Solution</div>
+                        <div className="font-bold text-[#fea130]  text-h3">Solution</div>
                         <div className="font-poppins font-semibold lg:text-li lg:mt-2 text-paraColor md:text-paraGraphMedium">I'm here to help with any problems you may have.</div>
                     </div>
                 </div>

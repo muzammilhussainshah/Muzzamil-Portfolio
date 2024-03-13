@@ -13,7 +13,7 @@ const CustomDot = ({ onClick, active }: any) => (
 );
 
 
-const Authentication: FC = () => {
+const ScreenShots: FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const settings = {
     dots: true,
@@ -76,7 +76,7 @@ const Authentication: FC = () => {
     <section>
       <div className="maincontainer">
         <div className="flex flex-col gap-y-2 items-center lg:items-start">
-          <div className="font-poppins font-bold lg:body1 text-[#7951b2] py-2 w-[10rem] rounded-[1.2rem] bg-[#f7f3ff] text-center">Applicaltion</div>
+          <div className="font-poppins font-bold lg:body1 text-white py-2 w-[10rem] rounded-[1.2rem] bg-[#4e0d53] text-center">Applicaltion</div>
           <div className="font-bold  text-head text-center text-[#4e0d53] text-h3 md:text-h2 lg:text-left">Screenshots</div>
           <div className="font-poppins font-semibold text-center text-li lg:text-left">Bistrochat does NOT require you to login before using it! Enjoy!</div>
         </div>
@@ -130,4 +130,4 @@ const Authentication: FC = () => {
 
 
 
-export default Authentication;
+export default ScreenShots;
