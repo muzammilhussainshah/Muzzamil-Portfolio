@@ -40,9 +40,9 @@ const Services: FC = () => {
 
   return (
     <div className="mb-10 px-3 md:pr-7 " id="services">
-      <div className="mb-4 font-bold text-center text-h2 ">Services</div>
-      <div className="flex mb-6 text-justify text-paraColor md:text-paraGraphMedium lg:justify-center">
-        <div className="lg:max-w-4xl">
+      <div data-aos="fade-up" className="mb-4 font-bold text-center text-h2">Services</div>
+      <div className="flex mb-6 text-justify md:text-paraGraphMedium lg:justify-center">
+        <div data-aos="fade-up" className="lg:max-w-4xl">
           Being a hybrid designer and developer means that I have all the reins. This allows me to build sleek webs and mobile applications quickly,
           well and effectively
         </div>

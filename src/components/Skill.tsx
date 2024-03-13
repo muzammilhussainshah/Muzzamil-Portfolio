@@ -7,7 +7,7 @@ interface SkillProps {
 
 const Skill: FC<SkillProps> = ({ component, name }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div data-aos="flip-left" className="flex flex-col items-center">
       {component}
       <p className="text-bodyTitleBig text-dark">{name}</p>
     </div>

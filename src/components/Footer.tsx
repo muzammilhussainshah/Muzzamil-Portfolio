@@ -21,7 +21,7 @@ const Footer = () => {
   }, [router.events]);
 
   return (
-    <div className="flex flex-col px-16 py-11 mt-10 w-full" id="contact">
+    <div  data-aos="fade-up" className="flex flex-col px-16 py-11 mt-10 w-full" id="contact">
       <div className="flex flex-col-reverse justify-center items-center gap-7 mb-5  ">
         <div className="space-y-2 text-sm">
           <div className="flex justify-center items-center">

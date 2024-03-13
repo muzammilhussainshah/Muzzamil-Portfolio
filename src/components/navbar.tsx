@@ -42,11 +42,11 @@ const Navbar: FC = () => {
     <>
       {displayMenu === false ? (
         <div className="flex items-center justify-center h-[80px] lg:h-auto px-3">
-          <div className="flex flex-1 flex-row lg:flex-none">
+          <div data-aos="fade-right" className="flex flex-1 flex-row lg:flex-none">
             <a href="/" className="ml-2 text-h4 lg:text-h2 font-semibold"><span className="align-middle border-4 border-black text-h4  lg:border-[5px]  lg:text-h3 rounded-full lg:px-2 lg:py-2 px-1 py-1.5">MS</span> Muzzammil Shah</a>
           </div>
 
-          <div className="hidden lg:flex lg:flex-1  lg:justify-end">
+          <div data-aos="fade-left" className="hidden lg:flex lg:flex-1  lg:justify-end">
             {url !== '/bistrochat-manager' && <a className="p-5 text-h4 hover:underline decoration-primary decoration-2" href={url?.length > 1 ? '/bistrochat-manager' : "#Bistrochat-Manager"} >
               Bistrochat Manager
             </a>}

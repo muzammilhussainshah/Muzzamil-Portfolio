@@ -45,7 +45,7 @@ const Skills: FC = () => {
 
   return (
     <div className="mb-10 ">
-      <div className="mb-4 font-bold text-center text-h2" id="tech">
+      <div data-aos="fade-down" className="mb-4 font-bold text-center text-h2" id="tech">
         My Tech Stack
       </div>
 

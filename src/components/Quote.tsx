@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Quote: FC = () => {
   return (
-    <>
+    <div data-aos="zoom-out-up">
       <div className="px-1 sm:px-0 flex flex-col justify-center my-10 md:flex-row">
         <div className="italic font-medium text-h3 text-dark md:max-w-lg lg:max-w-none">
           &quot;make it work, make it right, make it fast&quot;
@@ -20,7 +20,7 @@ const Quote: FC = () => {
           view my services
         </a>
       </div>
-    </>
+    </div>
   );
 };
 
