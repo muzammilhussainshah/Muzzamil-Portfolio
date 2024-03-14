@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FC } from "react";
 
 interface ProjectProps {
@@ -9,7 +10,7 @@ interface ProjectProps {
   id: string;
   skills: Array<any>;
   icon: any;
-  path?: string;
+  path: string;
 }
 
 const Project: FC<ProjectProps> = ({ title, images, description, type, role, skills, icon, path, id }) => {
@@ -28,14 +29,13 @@ const Project: FC<ProjectProps> = ({ title, images, description, type, role, ski
           })}
         </div>
         <div data-aos="fade-up-left" className="flex justify-center my-10">
-          <a
-            // target="_blank"
+          <Link
+            target="_blank"
             href={path}
-            className=" py-3 lg:py-5 text-white transition duration-300 ease-in-out delay-150 rounded-lg cursor-pointer px-7
-             bg-primary hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
           >
-            View case study
-          </a>
+            <a href="" className=" py-3 lg:py-5 text-white transition duration-300 ease-in-out delay-150 rounded-lg cursor-pointer px-7
+             bg-primary hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">View case study</a>
+          </Link>
         </div>
       </div>
 
@@ -53,7 +53,7 @@ const Project: FC<ProjectProps> = ({ title, images, description, type, role, ski
         <div className="font-semibold mb-3 place-items-center text-center lg:text-left">Skills</div>
         <div className="grid grid-cols-5 gap-4 place-items-center lg:place-items-start">
           {skills.map((skill, idx) => {
-            return <div  data-aos="flip-left" key={idx}>{skill}</div>;
+            return <div data-aos="flip-left" key={idx}>{skill}</div>;
           })}
         </div>
       </div>
