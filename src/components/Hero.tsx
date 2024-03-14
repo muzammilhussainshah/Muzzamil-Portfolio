@@ -1,6 +1,8 @@
 import { FC, useMemo } from "react";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { BsCheckLg } from "react-icons/bs";
+import { CardContainer } from "./aceternity/3d-card";
+import { BackgroundGradient } from "./aceternity/background-gradient";
 
 const Hero: FC = () => {
   const services = useMemo(() => ["Android", "iOS", "Cross Platform", "Web", "Chatbot"], []);
@@ -8,11 +10,15 @@ const Hero: FC = () => {
   return (
     <div className=" py-12 lg:flex lg:flex-row-reverse lg:px-16 lg:py-36 lg:justify-between lg:items-center" id="home">
       <div className="flex justify-center lg:w-3/5" data-aos="flip-right">
-        <img
-          src="/images/portfolio-main1.png"
-          alt="Picture of the author"
-          className="border-2 rounded-lg border-primary w-[250px] lg:mb-28  lg:w-[390px] mb-8"
-        />
+        <CardContainer className="inter-var">
+          <BackgroundGradient className="rounded-[22px] max-w-sm  bg-white dark:bg-zinc-900">
+            <img
+              src="/images/portfolio-main1.png"
+              alt="Picture of the author"
+              className=" rounded-lg w-[250px] lg:w-[390px]"
+            />
+          </BackgroundGradient>
+        </CardContainer>
       </div>
 
       <div data-aos="fade-right">
