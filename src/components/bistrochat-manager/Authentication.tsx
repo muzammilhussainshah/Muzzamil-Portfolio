@@ -34,7 +34,7 @@ const Authentication: FC = () => {
             <div className="font-poppins font-bold lg:body1 text-white text-head py-2 w-[10rem] rounded-lg bg-[#2e3a59] text-center">Popular Tools</div>
             <div className="font-bold  text-head text-[#2e3a59] text-center text-h3  lg:text-left">Booking Workflows Managed by our Saas Platform</div>
             <div className="font-poppins font-semibold text-center text-li lg:text-left">
-              Our software handles everything: sending confirmations, updates, and cancellation emails to customers regardless of how they booked. It also informs them about our loyalty program every time. Plus, if they book through our website, they'll get an automatic SMS with all the details.
+              Our software handles everything: sending confirmations, updates, and cancellation emails to customers regardless of how they booked. It also informs them about our loyalty program every time. Plus, if they book through our website, they&apos;ll get an automatic SMS with all the details.
               </div>
           </div>
           <div className="lg:w-1/2 my-8 flex justify-end ">
@@ -78,7 +78,7 @@ const Authentication: FC = () => {
           <div className="font-poppins font-bold lg:body1 text-head py-2 w-[10rem] text-white rounded-lg bg-[#2e3a59] text-center">Popular Tools</div>
           <div className="font-bold  text-head text-[#2e3a59] text-center text-h3  lg:text-left">Restaurant Booking System That Makes Staff & Guests Happier</div>
           <div className="font-poppins font-semibold text-center text-li lg:text-left">
-            Bistrochat TMS automates reservation confirmations, reminders, table allocation, POS order integration, "thank you" emails, and feedback requests, letting you focus on building connections and providing exceptional hospitality.
+            Bistrochat TMS automates reservation confirmations, reminders, table allocation, POS order integration, &quot;thank you&quot; emails, and feedback requests, letting you focus on building connections and providing exceptional hospitality.
           </div>
         </div>
         <div className="lg:w-1/2 my-8 w-full flex justify-end">

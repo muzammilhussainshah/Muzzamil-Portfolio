@@ -26,7 +26,7 @@ const BrandIdentity: FC = () => {
                         </div>
                     </div>
                     <div className="mt-4">
-                        <img src="images/bistrochatManager/icons.jpg" className="rounded-large" />
+                        <img src="images/bistrochatManager/icons.jpg" alt="bistrichat manager icons" className="rounded-large" />
                     </div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">

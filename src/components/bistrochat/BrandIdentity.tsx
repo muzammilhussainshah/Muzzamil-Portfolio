@@ -8,7 +8,7 @@ const BrandIdentity: FC = () => {
             <div className="maincontainer">
                 <div>
                     <div className="font-bold text-[#4e0d53] text-h2 text-center lg:text-left">Brand Identity</div>
-                    <div className="font-poppins font-semibold lg:text-li mt-4 text-center lg:text-left ">Bistrochat is Hong Kong's best restaurant search, booking and loyalty app... for dynamic professionals.</div>
+                    <div className="font-poppins font-semibold lg:text-li mt-4 text-center lg:text-left ">Bistrochat is Hong Kong&apos;s best restaurant search, booking and loyalty app... for dynamic professionals.</div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">
                     <div className="font-bold text-bodyTitleBig" >Logo</div>
@@ -25,7 +25,7 @@ const BrandIdentity: FC = () => {
                         </div>
                     </div>
                     <div className="mt-4">
-                        <img src="images/bistrochat/icons.jpg" className="rounded-large" />
+                        <img src="images/bistrochat/icons.jpg" alt="Bistrochat icons" className="rounded-large" />
                     </div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">

@@ -16,7 +16,7 @@ const OverView: FC = () => {
                     </p>
                     <br />
                     <p>
-                        And the best part? It's all available at an affordable flat fee with unlimited bookings.
+                        And the best part? It&apos;s all available at an affordable flat fee with unlimited bookings.
                     </p>
                 </div>
             </div>

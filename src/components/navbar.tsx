@@ -4,6 +4,7 @@ import MenuContext from "../context/displayMenu.context";
 
 import Menu from "./Menu";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Navbar: FC = () => {
   const { displayMenu, toggleDisplayMenu } = useContext(MenuContext);
@@ -34,28 +35,33 @@ const Navbar: FC = () => {
     return () => {
       router.events.off('routeChangeStart', handleRouteChange);
     };
-  }, [router.events]);
-
-  console.log(url, 'url')
-
+  }, [router.events, router.pathname]);
   return (
     <>
       {displayMenu === false ? (
         <div className="flex items-center justify-center h-[80px] lg:h-auto px-3">
           <div data-aos="fade-right" className="flex flex-1 flex-row lg:flex-none">
-            <a href="/" className="ml-2 text-h4 lg:text-h2 font-semibold"><span className="align-middle border-4 border-black text-h4  lg:border-[5px]  lg:text-h3 rounded-full lg:px-2 lg:py-2 px-1 py-1.5">MS</span> Muzzammil Shah</a>
+            <Link href='/'>
+              <a  className="ml-2 text-h4 lg:text-h2 font-semibold"><span className="align-middle border-4 border-black text-h4  lg:border-[5px]  lg:text-h3 rounded-full lg:px-2 lg:py-2 px-1 py-1.5">MS</span> Muzzammil Shah</a>
+            </Link>
           </div>
 
           <div data-aos="fade-left" className="hidden lg:flex lg:flex-1  lg:justify-end">
-            {url !== '/bistrochat-manager' && <a className="p-5 text-h4 hover:underline decoration-primary decoration-2" href={url?.length > 1 ? '/bistrochat-manager' : "#Bistrochat-Manager"} >
-              Bistrochat Manager
-            </a>}
-            {url !== '/bistrochat' && <a href={url?.length > 1 ? '/bistrochat' : "#Bistrochat"} className="p-5 text-h4 hover:underline decoration-primary decoration-2" onClick={() => { }}>
-              Bistrochat
-            </a>}
-            {url !== '/chat-to-potato' && <a href={url?.length > 1 ? '/chat-to-potato' : "#Chat-To-Potato"} className="p-5 text-h4 hover:underline decoration-primary decoration-2" onClick={() => { }}>
+            {url !== '/bistrochat-manager' && <Link href={url?.length > 1 ? '/bistrochat-manager' : "#Bistrochat-Manager"} >
+              <a className="p-5 text-h4 hover:underline decoration-primary decoration-2">
+                Bistrochat Manager
+              </a>
+            </Link>}
+            {url !== '/bistrochat' && <Link href={url?.length > 1 ? '/bistrochat' : "#Bistrochat"} onClick={() => { }}>
+              <a className="p-5 text-h4 hover:underline decoration-primary decoration-2">
+                Bistrochat
+              </a>
+            </Link>}
+            {url !== '/chat-to-potato' && <Link href={url?.length > 1 ? '/chat-to-potato' : "#Chat-To-Potato"} className="p-5 text-h4 hover:underline decoration-primary decoration-2" onClick={() => { }}>
+              <a className="p-5 text-h4 hover:underline decoration-primary decoration-2">
               Chat To Potato
-            </a>}
+              </a>
+            </Link>}
           </div>
 
           <div className="lg:hidden">

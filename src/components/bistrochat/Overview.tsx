@@ -12,7 +12,7 @@ const OverView: FC = () => {
                     </p>
                     <br />
                     <p>
-                        Booking a table is hassle-free; you can do it via chat from anywhere, whether you're in the MTR or an open space, eliminating the need for phone calls. The app also offers rewards such as stamps, cashback, and discounts, making dining out more enjoyable.
+                        Booking a table is hassle-free; you can do it via chat from anywhere, whether you&apos;re in the MTR or an open space, eliminating the need for phone calls. The app also offers rewards such as stamps, cashback, and discounts, making dining out more enjoyable.
                     </p>
                     <br />
                     <p>

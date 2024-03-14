@@ -12,7 +12,7 @@ const OverView: FC = () => {
                     </p>
                     <br />
                     <p>
-                        There are many online therapy apps, but Chat to a Potato is unique. We're dedicated to problem-solving. When personal issues arise, not everyone wants traditional therapy. Some just need someone to offer advice and perspective. That's where we come in.
+                        There are many online therapy apps, but Chat to a Potato is unique. We&apos;re dedicated to problem-solving. When personal issues arise, not everyone wants traditional therapy. Some just need someone to offer advice and perspective. That&apos;s where we come in.
                     </p>
                     <br />
                     <p>
@@ -34,7 +34,7 @@ const OverView: FC = () => {
                     </div>
                     <div className="mt-6 flex flex-col text-center gap-y-5 lg:text-left lg:flex-row  lg:gap-x-20">
                         <div className="font-bold text-[#fea130]  text-h3">Solution</div>
-                        <div className="font-poppins font-semibold lg:text-li lg:mt-2 text-paraColor md:text-paraGraphMedium">I'm here to help with any problems you may have.</div>
+                        <div className="font-poppins font-semibold lg:text-li lg:mt-2 text-paraColor md:text-paraGraphMedium">I&apos;m here to help with any problems you may have.</div>
                     </div>
                 </div>
             </section>

@@ -26,7 +26,7 @@ const Authentication: FC = () => {
           <div className="lg:w-1/2 flex flex-col gap-y-3 justify-center items-center lg:items-start">
             <div className="font-poppins font-bold lg:body1 text-head py-2 w-[10rem] rounded-lg text-white bg-[#fea130] text-center">Popular Tools</div>
             <div className="font-bold  text-head text-[#fea130] text-center text-h3  lg:text-left">Find Help from Real People on This App</div>
-            <div className="font-poppins font-semibold text-center text-li lg:text-left">There are many people available on this app to give you advice on various issues you might be facing, whether it's family problems, divorce, anxiety, career issues, or anything else bothering you.</div>
+            <div className="font-poppins font-semibold text-center text-li lg:text-left">There are many people available on this app to give you advice on various issues you might be facing, whether it&apos;s family problems, divorce, anxiety, career issues, or anything else bothering you.</div>
           </div>
           <div className="lg:w-1/2 my-8 flex justify-end ">
             <div className="w-[97%] p-2 shadow-2xl bg-[#5e95e0] rounded-lg">
