@@ -3,7 +3,7 @@ import { ChatToPotato } from "../../icons";
 
 const CHTHero: FC = () => {
   return (
-    <div className="w-full lg:mt-4 bg-[#6697e0]">
+    <div className="w-full lg:mt-4 bg-[#6697e0] p-8">
       <div className="max-w-[1440px] m-auto py-4">
         <div className="flex   lg:px-0 px-4 justify-between ">
           <ChatToPotato width={40} />

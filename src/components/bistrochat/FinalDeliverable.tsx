@@ -4,7 +4,7 @@ import { Figma, React, Nodejs, Monogdb } from "../../icons";
 const FinalDeliverable: FC = () => {
   return (
     <section style={{ background: 'linear-gradient(135deg, #370E3D 0%, #7C0E80 100%)' }}
-      className="relative overflow-hidden">
+      className="relative overflow-hidden p-8">
       <div className="max-w-[1440px] m-auto">
         <div className="wrapper lg:flex items-center">
           <div className="lg:w-[65%] h-[70vh] px-2 flex flex-col justify-evenly lg:pl-[15px]">

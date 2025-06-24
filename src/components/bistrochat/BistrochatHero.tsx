@@ -3,7 +3,7 @@ import { Bistrochat } from "../../icons";
 
 const BistrochatHero: FC = () => {
   return (
-    <div className="w-full">
+    <div className="w-full p-8">
       <div className="max-w-[1440px] m-auto py-4">
         <div className="flex   lg:px-0 px-4 justify-between ">
           <Bistrochat width={50} className="rounded-lg" />

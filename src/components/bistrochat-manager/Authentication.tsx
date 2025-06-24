@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Authentication: FC = () => {
   return (
-    <section>
+    <section className="p-8">
       <div className="maincontainer">
         <div className="flex flex-col gap-y-6 items-center lg:items-start">
           <div className="font-poppins font-bold lg:body1 text-white py-2 w-[10rem] rounded-[1.2rem] bg-[#2e3a59] text-center">Authentication</div>

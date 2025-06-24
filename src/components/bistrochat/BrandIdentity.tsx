@@ -4,7 +4,7 @@ import { Bistrochat } from "../../icons";
 
 const BrandIdentity: FC = () => {
     return (
-        <section>
+        <section className="p-8">
             <div className="maincontainer">
                 <div>
                     <div className="font-bold text-[#4e0d53] text-h2 text-center lg:text-left">Brand Identity</div>

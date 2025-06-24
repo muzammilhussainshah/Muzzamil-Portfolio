@@ -4,7 +4,7 @@ import Slider from "react-slick";
 
 const CustomDot = ({ onClick, active }: any) => (
   <div
-    className={`${active && 'border-2  flex justify-center items-center sm:py-1 p-1 sm:p-0 -mb-[50px] sm:mb-0 border-[#4e0d53] rounded-full'}`}
+    className={`${active && 'border-2 flex justify-center items-center sm:py-1 lg:p-8 sm:p-0 -mb-[50px] sm:mb-0 border-[#4e0d53] rounded-full'}`}
     onClick={onClick}
   >
     <span className={`sm:w-[10px] w-[7px] h-[7px] sm:h-[10px] inline-block rounded-full cursor-pointer ${active ? 'bg-[#5c0e61]' : 'bg-[grey]'}`}

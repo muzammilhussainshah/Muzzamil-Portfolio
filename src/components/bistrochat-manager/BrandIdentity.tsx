@@ -4,7 +4,7 @@ import { BistroChatManager, ChatToPotato } from "../../icons";
 
 const BrandIdentity: FC = () => {
     return (
-        <section>
+        <section className="p-8">
             <div className="maincontainer">
                 <div>
                     <div className="font-bold text-[#2e3a59]  text-h2 text-center lg:text-left">Brand Identity</div>

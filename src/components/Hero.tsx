@@ -8,7 +8,7 @@ const Hero: FC = () => {
   const services = useMemo(() => ["Android", "iOS", "Cross Platform", "Web", "Chatbot"], []);
 
   return (
-    <div className=" py-12 lg:flex lg:flex-row-reverse lg:px-16 lg:py-36 lg:justify-between lg:items-center" id="home">
+    <div className=" py-12 lg:flex lg:flex-row-reverse lg:px-16 lg:py-20 lg:justify-between lg:items-center" id="home">
       <div className="flex justify-center lg:w-3/5" data-aos="flip-right">
         <CardContainer className="inter-var">
           <BackgroundGradient className="rounded-[22px] max-w-sm  bg-white dark:bg-zinc-900">
@@ -22,7 +22,7 @@ const Hero: FC = () => {
       </div>
 
       <div data-aos="fade-right">
-        <div className=" lg:text-h2 mb-8 font-semibold text-center text-h3 lg:text-left xl:text-h1 lg:max-w-screen-lg xl:max-w-screen-xl">
+        <div className=" lg:text-h3 mb-8 font-semibold text-center text-h3 lg:text-left xl:text-h2 lg:max-w-screen-lg xl:max-w-screen-xl">
           Full stack <span className="underline decoration-primary">Web</span> & <span className="underline decoration-primary">Mobile Apps</span> developer with chatbot expertise
         </div>
 

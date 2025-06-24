@@ -3,13 +3,13 @@ import { Figma, React, Nodejs, Monogdb } from "../../icons";
 
 const FinalDeliverable: FC = () => {
   return (
-    <section className="bg-[#5e96e1] lg:h-[80vh] relative overflow-hidden">
+    <section className="bg-[#5e96e1] lg:h-[80vh] relative overflow-hidden p-8">
       <div className="max-w-[1440px] m-auto">
         <div className="wrapper lg:flex items-center">
           <div className="lg:w-[65%] h-[70vh] px-2 flex flex-col justify-evenly lg:pl-[15px]">
             <div className='lg:text-left lg:block flex flex-col items-center'>
               <div className="font-jakarta font-extrabold text-[#f7a746fa]  text-h3 lg:text-left text-center">Chat To Potato Final Deliverable</div>
-              <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center">The end result is a fully functional &quot;Chat to a Potato&quot; web app, which is an instant chat website that allows you to chat with other people who can help with real-life issues such as depression, anxiety, and so on.</div>
+              <div className="font-poppins font-semibold text-h4 mt-6 text-white lg:w-[70%] lg:text-left text-center lg:text-[16px]">The end result is a fully functional &quot;Chat to a Potato&quot; web app, which is an instant chat website that allows you to chat with other people who can help with real-life issues such as depression, anxiety, and so on.</div>
               <div className="lg:body1 text-white py-2 px-3 sm:w-[22rem] rounded-[1.5rem] bg-[#2d486b5e] text-center mt-4 cursor-pointer"><a href="https://chattoapotato.com/">Visit live at www.chattoapotato.com</a></div>
             </div>
             <div className="flex flex-col gap-y-5 items-center lg:items-start">

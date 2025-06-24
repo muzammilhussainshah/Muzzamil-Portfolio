@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <MenuContextProvider>
       <Navbar />
-      <div className="">
+      <div className="overflow-hidden">
         <Component {...pageProps} />
       </div>
 

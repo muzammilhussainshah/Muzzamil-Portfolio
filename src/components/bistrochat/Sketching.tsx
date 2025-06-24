@@ -3,7 +3,7 @@ import { ChatToPotato } from "../../icons";
 
 const Sketching: FC = () => {
   return (
-    <section>
+    <section className="p-8">
       <div className="maincontainer">
         <div >
           <div className="font-bold text-[#4e0d53]  text-center lg:text-left text-h2">Sketching</div>

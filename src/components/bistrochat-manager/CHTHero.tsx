@@ -4,7 +4,7 @@ import { BistroChatManager } from "../../icons";
 const BMHero: FC = () => {
   return (
     <div className="w-full">
-      <div className="max-w-[1440px] m-auto py-4">
+      <div className="max-w-[1440px] m-auto p-8">
         <div className="flex   lg:px-0 px-4 justify-between ">
           <BistroChatManager width={40} />
           <div className="font-bold text-center text-[#151d35] text-h4">2023{" "}</div>

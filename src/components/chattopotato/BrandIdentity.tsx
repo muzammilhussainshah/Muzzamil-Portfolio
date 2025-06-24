@@ -4,11 +4,11 @@ import { ChatToPotato } from "../../icons";
 
 const BrandIdentity: FC = () => {
     return (
-        <section>
+        <section className="p-8">
             <div className="maincontainer">
                 <div>
                     <div className="font-bold text-[#fea130]  text-h2 text-center lg:text-left">Brand Identity</div>
-                    <div className="font-poppins font-semibold lg:text-li mt-4 text-center lg:text-left ">Chat To Potato, A talking potato helps solve your problems and gives advice on lonely thoughts while keeping your identity private, just like a potato.</div>
+                    <div className="font-poppins font-semibold lg:text-li mt-4 text-center lg:text-left lg:text-[16px]">Chat To Potato, A talking potato helps solve your problems and gives advice on lonely thoughts while keeping your identity private, just like a potato.</div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">
                     <div className="font-bold text-[#fea130] text-bodyTitleBig" >Logo</div>
@@ -53,8 +53,8 @@ const BrandIdentity: FC = () => {
                 </div>
                 <div className="flex flex-col gap-y-6">
                     <div className="font-bold  text-heading text-bodyTitleBig">Poppins</div>
-                    <div className="font-medium text-heading  text-bodyTitleBig" >Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
-                    <div className="font-medium text-heading  text-bodyTitleBig" >0123456789</div>
+                    <div className="font-medium text-heading lg:text-[16px] text-bodyTitleBig" >Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+                    <div className="font-medium text-heading lg:text-[16px] text-bodyTitleBig" >0123456789</div>
                 </div>
             </div>
         </section>

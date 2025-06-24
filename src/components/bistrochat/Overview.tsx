@@ -3,7 +3,7 @@ import { FC } from "react";
 
 const OverView: FC = () => {
     return (
-        <section>
+        <section className="p-8">
             <div className="maincontainer overflow-hidden">
                 <div className="font-bold text-[#4e0d53] text-h2 text-center lg:text-left">Overview</div>
                 <div className="font-poppins font-semibold lg:text-li mt-6 leading-8  text-center lg:text-left">

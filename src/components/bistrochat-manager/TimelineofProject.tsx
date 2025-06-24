@@ -8,7 +8,7 @@ import {
 
 const TimelineofProject: FC = () => {
     return (
-        <section>
+        <section className="p-8">
             <div className="maincontainer">
                 <div className="font-bold text-[#2e3a59] text-h2 text-center lg:text-left">Timeline of Project</div>
                 <div className="sm:flex justify-center mt-10 hidden">

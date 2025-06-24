@@ -3,7 +3,7 @@ import { Figma, React, Nodejs, Monogdb } from "../../icons";
 
 const FinalDeliverable: FC = () => {
   return (
-    <section className="bg-[#2e3a59] relative overflow-hidden">
+    <section className="bg-[#2e3a59] relative overflow-hidden p-8">
       <div className="maincontainer">
         <div className="py-10 text-white">
           <div className="font-bold text-h2 text-center">High Fidelity Wireframes</div>
