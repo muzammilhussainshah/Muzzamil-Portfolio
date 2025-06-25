@@ -8,7 +8,7 @@ const Hero: FC = () => {
   const services = useMemo(() => ["Android", "iOS", "Cross Platform", "Web", "Chatbot"], []);
 
   return (
-    <div className=" py-12 lg:flex lg:flex-row-reverse lg:px-16 lg:py-20 lg:justify-between lg:items-center" id="home">
+    <div className="bg-[#0D1117] py-12 lg:flex lg:flex-row-reverse lg:px-16 lg:py-20 lg:justify-between lg:items-center" id="home">
       <div className="flex justify-center lg:w-3/5" data-aos="flip-right">
         <CardContainer className="inter-var">
           <BackgroundGradient className="rounded-[22px] max-w-sm  bg-white dark:bg-zinc-900">
@@ -22,7 +22,7 @@ const Hero: FC = () => {
       </div>
 
       <div data-aos="fade-right">
-        <div className=" lg:text-h3 mb-8 font-semibold text-center text-h3 lg:text-left xl:text-h2 lg:max-w-screen-lg xl:max-w-screen-xl">
+        <div className="text-[#FFFFFF] lg:text-h3 mb-8 font-semibold text-center text-h3 lg:text-left xl:text-h2 lg:max-w-screen-lg xl:max-w-screen-xl">
           Full stack <span className="underline decoration-primary">Web</span> & <span className="underline decoration-primary">Mobile Apps</span> developer with chatbot expertise
         </div>
 
@@ -30,8 +30,8 @@ const Hero: FC = () => {
           {services.map((service) => {
             return (
               <div key={service} className="flex items-center justify-center lg:justify-start">
-                <BsCheckLg color="#1D53FF" className="mr-2 min-w-fit" />
-                <div className="font-medium md:text-li text-[#59647B] ">{service}</div>
+                <BsCheckLg color="#8B949E" className="mr-2 min-w-fit" />
+                <div className="font-medium md:text-li text-[#8B949E]">{service}</div>
               </div>
             );
           })}
@@ -39,14 +39,14 @@ const Hero: FC = () => {
 
         <div className="md:flex md:justify-center lg:flex-none lg:justify-start">
           <div className="flex justify-center mb-8 md:mb-0 md:mr-8">
-            <a href="#projects" className="p-[16px] border-2 border-primary font-bold text-primary hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">
+            <a href="#projects" className="p-[16px] border-2 bg-[#58A6FF] font-bold text-[#0D1117] hover:bg-[#79C0FF] rounded">
               check out my work
             </a>
           </div>
 
           <div className="flex items-center justify-center">
             <a
-              className="text-[16px] font-semibold text-[#59647B] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+              className="text-[16px] font-semibold text-[#8B949E] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
               href="#contact"
             >
               get in touch

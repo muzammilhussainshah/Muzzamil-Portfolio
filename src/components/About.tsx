@@ -5,11 +5,11 @@ const About: FC = () => {
     <div className="my-[100px] mb-10 px-2" id="about">
       <div
         data-aos="fade-right"
-        className="container mb-4 font-bold text-center lg:text-left text-h2"
+        className="container mb-4 font-bold text-center lg:text-left text-h2 text-[#FFFFFF]"
       >
         About Me
       </div>
-      <div className="container text-justify md:text-[17px]">
+      <div className="container text-justify md:text-[17px] text-[#E5E5E5]">
         <p data-aos="fade-right">
           I&apos;m an expert in creating easy-to-use digital platforms. I know
           all about making websites look great and work smoothly, using tools

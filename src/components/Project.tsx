@@ -32,7 +32,7 @@ const Project: FC<ProjectProps> = ({
       <div className="mb-4 lg:max-w-lg ">
         <div
           data-aos="zoom-in-right"
-          className="mb-4 text-center text-h3 lg:hidden"
+          className="mb-4 text-center text-h3 lg:hidden text-[#FFFFFF]"
         >
           {title}
         </div>
@@ -69,7 +69,7 @@ const Project: FC<ProjectProps> = ({
               href={path}
               target="_blank"
               className=" py-3 lg:py-5 text-white transition duration-300 ease-in-out delay-150 rounded-lg cursor-pointer px-7
-             bg-primary hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
+             bg-[#3B82F6] hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:bg-[#2563EB]"
             >
               View case study
             </a>
@@ -78,7 +78,7 @@ const Project: FC<ProjectProps> = ({
       </div>
 
       <div className="lg:max-w-lg md:mx-1 lg:mx-0">
-        <div className="hidden mb-2 lg:flex text-h2" data-aos="fade-right">
+        <div className="hidden mb-2 lg:flex text-h2 text-[#FFFFFF]" data-aos="fade-right">
           {title}
         </div>
         <div className="hidden mb-2 lg:flex text-h2" data-aos="fade-right">
@@ -86,11 +86,11 @@ const Project: FC<ProjectProps> = ({
         </div>
         <div
           data-aos="fade-right"
-          className="mb-4 px-2 sm:px-0 text-center lg:text-justify text-paraColor md:text-paraGraphMedium lg:text-start lg:tracking-wide lg:w-4/5 xl:w-full lg:text-[18px]"
+          className="mb-4 px-2 sm:px-0 text-center lg:text-justify text-[#E5E5E5] md:text-paraGraphMedium lg:text-start lg:tracking-wide lg:w-4/5 xl:w-full lg:text-[18px]"
         >
           {description}
         </div>
-        <div className="grid grid-cols-2 mb-5  place-items-center lg:place-items-start">
+        <div className="text-[#E5E5E5] grid grid-cols-2 mb-5 place-items-center lg:place-items-start">
           <div data-aos="fade-right" className="font-semibold mb-2">
             Type
           </div>
@@ -101,7 +101,7 @@ const Project: FC<ProjectProps> = ({
           <div data-aos="fade-right">{role}</div>
         </div>
 
-        <div className="font-semibold mb-3 place-items-center text-center lg:text-left">
+        <div className="text-[#E5E5E5] font-semibold mb-3 place-items-center text-center lg:text-left">
           Skills
         </div>
         <div className="grid grid-cols-5 gap-4 place-items-center lg:place-items-start">

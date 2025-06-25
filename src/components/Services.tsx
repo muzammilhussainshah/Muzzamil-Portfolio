@@ -39,10 +39,10 @@ const Services: FC = () => {
   );
 
   return (
-    <div className="mb-10 px-3 md:pr-7 py-6" id="services">
-      <div data-aos="fade-up" className="mb-4 font-bold text-center text-h2">Services</div>
+    <div className="bg-[#0D1117] mb-10 px-3 md:pr-7 py-6" id="services">
+      <div data-aos="fade-up" className="mb-4 font-bold text-center text-h2 text-[#FFFFFF]">Services</div>
       <div className="flex mb-6 text-justify md:text-paraGraphMedium lg:justify-center py-6">
-        <div data-aos="fade-up" className="lg:max-w-4xl text-[16px]">
+        <div data-aos="fade-up" className="lg:max-w-4xl text-[16px] text-[#E5E5E5]">
           Being a hybrid designer and developer means that I have all the reins. This allows me to build sleek webs and mobile applications quickly,
           well and effectively
         </div>
