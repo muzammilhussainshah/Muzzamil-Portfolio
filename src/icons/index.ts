@@ -21,6 +21,7 @@ export * from "./Square";
 export * from "./Bistrochat";
 export * from "./ChatToPotato";
 export * from "./BistroChatManager";
+export * from "./PostgresSql"
 
 export interface IconProps {
   width?: number;

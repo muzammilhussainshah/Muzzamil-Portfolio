@@ -66,7 +66,8 @@ const Project: FC<ProjectProps> = ({
         <div data-aos="fade-up-left" className="flex justify-center my-10">
           <Link target="_blank" href={path}>
             <a
-              href=""
+              href={path}
+              target="_blank"
               className=" py-3 lg:py-5 text-white transition duration-300 ease-in-out delay-150 rounded-lg cursor-pointer px-7
              bg-primary hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
             >

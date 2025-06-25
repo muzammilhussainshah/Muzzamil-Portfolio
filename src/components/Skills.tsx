@@ -16,7 +16,8 @@ import {
   ReactNative,
   Tailwindcss,
   Typescript,
-  OpenAI
+  OpenAI,
+  PostgresIcon
 } from "../icons";
 import Skill from "./Skill";
 
@@ -38,6 +39,8 @@ const Skills: FC = () => {
       { component: <Firebase />, name: "Firebase" },
       { component: <MySQL />, name: "MySQL" },
       { component: <Figma />, name: "Figma" },
+      { component: <Nestjs />, name: "NestJs" },
+      { component: <PostgresIcon />, name: "PostgresSql" },
       { component: <OpenAI width={132} />, name: "OpenAI" },
     ],
     []
