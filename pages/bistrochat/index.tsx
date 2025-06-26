@@ -15,7 +15,7 @@ import ScreenShots from "../../src/components/bistrochat/ScreenShots";
 
 const Portfolio: FC = () => {
   const styling = {
-    backgroundImage: `url('images/Background.png')`,
+    backgroundColor: `#1E1E2F`,
     width: "100%",
     height: "100%",
     backgroundPosition: 'center',

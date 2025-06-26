@@ -5,8 +5,8 @@ const OverView: FC = () => {
     return (
         <section className="p-8">
             <div className="maincontainer overflow-hidden">
-                <div className="font-bold text-[#4e0d53] text-h2 text-center lg:text-left">Overview</div>
-                <div className="font-poppins font-semibold lg:text-li mt-6 leading-8  text-center lg:text-left">
+                <div className="font-bold text-[#4e0d53] text-h2 text-[#FFFF] text-center lg:text-left">Overview</div>
+                <div className="font-poppins font-semibold lg:text-li mt-6 leading-8  text-center lg:text-left text-[#E5E5E5]">
                     <p>
                         Bistrochat is a convenient restaurant booking and loyalty program designed for users in Hong Kong. With this app, you can easily search for restaurants based on location, cuisine, or specific dishes on their menus. You can also check ratings, order by price, and even find restaurants recommended by your friends.
                     </p>

@@ -7,9 +7,9 @@ import {
 
 const TimelineofProject: FC = () => {
     return (
-        <section className="p-8">
+        <section className="p-8 bg-[#0D1117]">
             <div className="maincontainer">
-                <div className="font-bold text-[#4e0d53] text-h2 text-center lg:text-left">Timeline of Project</div>
+                <div className="font-bold text-[#FFFFFF] text-h2 text-center lg:text-left">Timeline of Project</div>
                 <div className="sm:flex justify-center mt-10 hidden">
                     <img src="images/bistrochat/timeperiod.jpg" alt="Chattopotatologo" />
                 </div>

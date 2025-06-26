@@ -7,12 +7,12 @@ const BrandIdentity: FC = () => {
         <section className="p-8">
             <div className="maincontainer">
                 <div>
-                    <div className="font-bold text-[#2e3a59]  text-h2 text-center lg:text-left">Brand Identity</div>
-                    <div className="font-poppins font-semibold lg:text-li mt-4 text-center lg:text-left ">
+                    <div className="font-bold text-[#FFFF]  text-h2 text-center lg:text-left">Brand Identity</div>
+                    <div className="text-[#E5E5E5] font-poppins font-semibold lg:text-li mt-4 text-center lg:text-left ">
                     The Bistrochat Manager app</div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">
-                    <div className="font-bold text-[#2e3a59] text-bodyTitleBig" >Logo</div>
+                    <div className="font-bold text-[#E5E5E5] text-bodyTitleBig" >Logo</div>
                     <div className="h-1/2 border-b-4  border-b-[#66a14c] w-[93%]" />
                 </div>
                 <div className="lg:w-3/4 m-auto">
@@ -30,7 +30,7 @@ const BrandIdentity: FC = () => {
                     </div>
                 </div>
                 <div className="h-10 flex gap-x-4  my-10">
-                    <article className="font-bold text-[#2e3a59] text-bodyTitleBig whitespace-nowrap">Brand Color</article>
+                    <article className="font-bold text-[#E5E5E5] text-bodyTitleBig whitespace-nowrap">Brand Color</article>
                     <div className="h-1/2 border-b-4  border-b-[#66a14c] w-full" />
                 </div>
                 <div className="md:flex lg:my-4 md:gap-x-3">
@@ -49,13 +49,13 @@ const BrandIdentity: FC = () => {
                 </div>
 
                 <div className="h-10 flex gap-x-4  my-10">
-                    <article className="font-bold text-[#2e3a59] text-bodyTitleBig whitespace-nowrap">Typography</article>
+                    <article className="font-bold text-[#E5E5E5] text-bodyTitleBig whitespace-nowrap">Typography</article>
                     <div className="h-1/2 border-b-4  border-b-[#66a14c] w-full" />
                 </div>
                 <div className="flex flex-col gap-y-6">
-                    <div className="font-bold  text-heading text-bodyTitleBig">Poppins</div>
-                    <div className="font-medium text-heading  text-bodyTitleBig" >Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
-                    <div className="font-medium text-heading  text-bodyTitleBig" >0123456789</div>
+                    <div className="font-bold  text-[#E5E5E5] text-bodyTitleBig">Poppins</div>
+                    <div className="font-medium text-[#E5E5E5]  text-bodyTitleBig" >Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+                    <div className="font-medium text-[#E5E5E5]  text-bodyTitleBig" >0123456789</div>
                 </div>
             </div>
         </section>

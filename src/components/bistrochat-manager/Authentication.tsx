@@ -6,8 +6,8 @@ const Authentication: FC = () => {
       <div className="maincontainer">
         <div className="flex flex-col gap-y-6 items-center lg:items-start">
           <div className="font-poppins font-bold lg:body1 text-white py-2 w-[10rem] rounded-[1.2rem] bg-[#2e3a59] text-center">Authentication</div>
-          <div className="font-bold  text-head text-center text-[#2e3a59] text-h3 md:text-h2 lg:text-left">Sign Up & Login</div>
-          <div className="font-poppins font-semibold text-center text-li lg:text-left">Detailed wireframes incorporate the final design elements, ensuring a visually appealing and functional user interface.</div>
+          <div className="font-bold  text-head text-center text-[#E5E5E5] text-h3 md:text-h2 lg:text-left">Sign Up & Login</div>
+          <div className="text-[#E5E5E5] font-poppins font-semibold text-center text-li lg:text-left">Detailed wireframes incorporate the final design elements, ensuring a visually appealing and functional user interface.</div>
         </div>
         <div className="w-full lg:flex sm:h-[100vh] lg:h-[50vh] justify-between  my-7">
           <div className="lg:w-[49%] h-[50%] lg:h-full flex flex-col sm:flex-row gap-y-2 sm:gap-y-0 justify-evenly  w-full lg:my-0 my-4 p-4 rounded-lg bg-[#f5f5f5]">
@@ -32,8 +32,8 @@ const Authentication: FC = () => {
         <div className="maincontainer lg:flex">
           <div className="lg:w-1/2 flex flex-col gap-y-3 justify-center items-center lg:items-start">
             <div className="font-poppins font-bold lg:body1 text-white text-head py-2 w-[10rem] rounded-lg bg-[#2e3a59] text-center">Popular Tools</div>
-            <div className="font-bold  text-head text-[#2e3a59] text-center text-h3  lg:text-left">Booking Workflows Managed by our Saas Platform</div>
-            <div className="font-poppins font-semibold text-center text-li lg:text-left">
+            <div className="font-bold  text-head text-[#E5E5E5] text-center text-h3  lg:text-left">Booking Workflows Managed by our Saas Platform</div>
+            <div className="text-[#E5E5E5] font-poppins font-semibold text-center text-li lg:text-left">
               Our software handles everything: sending confirmations, updates, and cancellation emails to customers regardless of how they booked. It also informs them about our loyalty program every time. Plus, if they book through our website, they&apos;ll get an automatic SMS with all the details.
               </div>
           </div>
@@ -59,8 +59,8 @@ const Authentication: FC = () => {
           <div className="lg:w-1/2 w-full flex justify-end items-center">
             <div className="lg:w-[90%] w-full flex flex-col gap-y-3 items-center lg:items-start">
               <div className="font-poppins font-bold lg:body1 text-head py-2 w-[10rem] text-white rounded-lg bg-[#2e3a59] text-center">Popular Tools</div>
-              <div className="font-bold text-[#2e3a59] text-h3 text-center lg:text-left">Booking Workflows Managed by our Saas Platform</div>
-              <div className="font-poppins font-semibold text-li text-center lg:text-left">
+              <div className="font-bold text-[#E5E5E5] text-h3 text-center lg:text-left">Booking Workflows Managed by our Saas Platform</div>
+              <div className="text-[#E5E5E5] font-poppins font-semibold text-li text-center lg:text-left">
                 This system handles restaurant reservations from WhatsApp, Facebook, and Bistrochat 24/7, translating live for language differences and automatically updating booking and customer information for marketing.
               </div>
             </div>
@@ -76,8 +76,8 @@ const Authentication: FC = () => {
             <img src="images/chattopotato/centerArrow.jpg" className="hidden xl:block w-[6rem]" alt="" />
           </div>
           <div className="font-poppins font-bold lg:body1 text-head py-2 w-[10rem] text-white rounded-lg bg-[#2e3a59] text-center">Popular Tools</div>
-          <div className="font-bold  text-head text-[#2e3a59] text-center text-h3  lg:text-left">Restaurant Booking System That Makes Staff & Guests Happier</div>
-          <div className="font-poppins font-semibold text-center text-li lg:text-left">
+          <div className="font-bold  text-head text-[#E5E5E5] text-center text-h3  lg:text-left">Restaurant Booking System That Makes Staff & Guests Happier</div>
+          <div className="font-poppins font-semibold text-center text-li lg:text-left text-[#E5E5E5]">
             Bistrochat TMS automates reservation confirmations, reminders, table allocation, POS order integration, &quot;thank you&quot; emails, and feedback requests, letting you focus on building connections and providing exceptional hospitality.
           </div>
         </div>

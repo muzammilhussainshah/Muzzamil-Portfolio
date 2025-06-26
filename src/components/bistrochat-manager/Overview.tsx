@@ -4,10 +4,10 @@ const OverView: FC = () => {
   return (
     <section className="p-8">
       <div className="maincontainer overflow-hidden">
-        <div className="font-bold text-[#2e3a59] text-h2 text-center lg:text-left">
+        <div className="font-bold text-[#FFFF] text-h2 text-center lg:text-left">
           Overview
         </div>
-        <div className="font-poppins font-semibold lg:text-li mt-6 leading-8  text-center lg:text-left lg:text-[16px]">
+        <div className="text-[#E5E5E5] font-poppins font-semibold lg:text-li mt-6 leading-8  text-center lg:text-left lg:text-[16px]">
           <p>
             Our system gathers bookings from various platforms like Instagram,
             Facebook, Google Reserve, Openrice, and more. It brings together all
@@ -41,15 +41,15 @@ const OverView: FC = () => {
       <section>
         <div className="maincontainer">
           <div className="flex flex-col text-center gap-y-5 lg:text-left lg:flex-row  lg:gap-x-20">
-            <div className="font-bold text-[#2e3a59]  text-h3">Problem</div>
-            <div className="font-poppins font-semibold lg:text-[16px] lg:mt-2 text-paraColor md:text-paraGraphMedium ">
+            <div className="font-bold text-[#FFFF]  text-h3">Problem</div>
+            <div className="text-[#E5E5E5] font-poppins font-semibold lg:text-[16px] lg:mt-2 md:text-paraGraphMedium ">
               How can I find out which tables are available and which ones are
               booked at a restaurant?
             </div>
           </div>
           <div className="mt-6 flex flex-col text-center gap-y-5 lg:text-left lg:flex-row  lg:gap-x-20">
-            <div className="font-bold text-[#2e3a59]  text-h3">Solution</div>
-            <div className="font-poppins font-semibold lg:text-[16px] lg:mt-2 text-paraColor md:text-paraGraphMedium">
+            <div className="font-bold text-[#FFFF]  text-h3">Solution</div>
+            <div className="font-poppins font-semibold lg:text-[16px] lg:mt-2 text-[#E5E5E5] md:text-paraGraphMedium">
               You can book a table through this app, and it will also let you
               know which table you can book.
             </div>

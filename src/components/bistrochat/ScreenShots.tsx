@@ -4,7 +4,7 @@ import Slider from "react-slick";
 
 const CustomDot = ({ onClick, active }: any) => (
   <div
-    className={`${active && 'border-2 flex justify-center items-center sm:py-1 lg:p-8 sm:p-0 -mb-[50px] sm:mb-0 border-[#4e0d53] rounded-full'}`}
+    className={`${active && 'border-2 text-[#FFFF] flex justify-center items-center sm:py-1 lg:p-8 sm:p-0 -mb-[50px] sm:mb-0 border-[#4e0d53] rounded-full'}`}
     onClick={onClick}
   >
     <span className={`sm:w-[10px] w-[7px] h-[7px] sm:h-[10px] inline-block rounded-full cursor-pointer ${active ? 'bg-[#5c0e61]' : 'bg-[grey]'}`}
@@ -77,8 +77,8 @@ const ScreenShots: FC = () => {
       <div className="maincontainer">
         <div className="flex flex-col gap-y-2 items-center lg:items-start">
           <div className="font-poppins font-bold lg:body1 text-white py-2 w-[10rem] rounded-[1.2rem] bg-[#4e0d53] text-center">Applicaltion</div>
-          <div className="font-bold  text-head text-center text-[#4e0d53] text-h3 md:text-h2 lg:text-left">Screenshots</div>
-          <div className="font-poppins font-semibold text-center text-li lg:text-left">Bistrochat does NOT require you to login before using it! Enjoy!</div>
+          <div className="font-bold  text-head text-center text-[#4e0d53] text-h3 md:text-h2 lg:text-left text-[#FFFF]">Screenshots</div>
+          <div className="font-poppins font-semibold text-center text-li lg:text-left text-[#E5E5E5]">Bistrochat does NOT require you to login before using it! Enjoy!</div>
         </div>
         <div className="slider-container my-16 flex justify-center text-[black]">
           <div className="w-[95%]  block">

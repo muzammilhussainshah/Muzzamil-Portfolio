@@ -4,7 +4,7 @@ import { colors, timeperiod } from "../../constant/data";
 
 const TimelineofProject: FC = () => {
     return (
-        <section className="p-8">
+        <section className="p-8 bg-[#0D1117]">
             <div className="maincontainer">
                 <div className="font-bold text-[#fea130] text-h2 text-center lg:text-left">Timeline of Project</div>
                 <div className="sm:flex justify-center mt-10 hidden">
